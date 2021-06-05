@@ -2,15 +2,18 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
         <script src="seedrandom.min.js"></script>
         <script src="bingo.js"> </script>
     </head>
     <body>
-        <div>
-            Enter your reddit username: u/
-            <input type="text" id="input"></textarea>
-            <button type="button" id="generateBtn" onclick="drawBingo()">Generate!</button>
+        <div class="center">
+            <div class="center">
+                <div class="highlight">Enter your reddit username:</div>
+                <input type="text" id="input"></textarea>
+                <button type="button" id="generateBtn" onclick="drawBingo()">Generate!</button>
+            </div>
+            <div id="output"></div>
         </div>
-        <div id="output"></div>
     </body>
 </html>

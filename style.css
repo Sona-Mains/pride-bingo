@@ -1,0 +1,34 @@
+@property --rot {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes rotation {
+    0% {
+        --rot: 0deg;
+    }
+    100% {
+        --rot: 360deg;
+    }
+}
+
+body {
+    --rot:0deg;
+    background: conic-gradient(from var(--rot) at 50% 120%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
+    animation-name: rotation;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight {
+    background-color: white;
+}
