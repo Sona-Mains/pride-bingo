@@ -5,14 +5,6 @@ const ctx = canvas.getContext('2d')
 const cellSize = 150
 canvas.width = cellSize * 5
 canvas.height = cellSize * 5 + 20
-const images = [
-"res/blue.png",
-"res/green.png",
-"res/lightblue.png",
-"res/orange.png",
-"res/red.png",
-"res/yellow.png",
-]
 
 const taskList = [
     "Build Heterosexual Flag",
