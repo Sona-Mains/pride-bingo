@@ -42,7 +42,8 @@ const taskList = [
 ]
 
 async function drawBingo(){
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    ctx.fillStyle = "powderblue"
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
     
     
     let user = document.getElementById("input").value
