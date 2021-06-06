@@ -6,10 +6,23 @@
         <script src="seedrandom.min.js"></script>
         <script src="bingo.js"> </script>
     </head>
-    <body>
-        <div class="center">
+    <body id="body">
+        <div class="center animation">
             <div class="center">
-                <div class="highlight">Enter your reddit username:</div>
+                <div class="container">
+                    <div class="item">
+                        <img src="images/pride_flag.gif" alt="pride flag">
+                    </div>
+                    <div class="item">
+                        <img src="images/sona.gif" alt="" style="width:230px;height: 200px">
+                        <div class="highlight">Enter your reddit username:</div>
+                    </div>
+                    <div class="item">
+                        <img src="images/pride_flag.gif" alt="pride flag">
+                    </div>
+
+                </div>
+
                 <input type="text" id="input"></textarea>
                 <button type="button" id="generateBtn" onclick="drawBingo()">Generate!</button>
             </div>
