@@ -1,7 +1,3 @@
-html{
-    height: 100%;
-}
-
 .container {
     display: flex; /* or inline-flex */
     flex-direction: row;
@@ -13,7 +9,13 @@ html{
     align-self: auto;
 }
 body {
-    background: conic-gradient(from 0deg at 50% 120%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
+    background: conic-gradient(from 0deg at 50% 160%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
+    min-height: 50%;
+    height: auto;
+}
+
+#animation{
+    min-height: 100%;
 }
 
 .center {
@@ -26,3 +28,4 @@ body {
 .highlight {
     background-color: white;
 }
+
