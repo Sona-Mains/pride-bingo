@@ -39,6 +39,23 @@ const taskList = [
     "Discuss or post about a queer League of Legends ship"
 ]
 
+document.addEventListener("DOMContentLoaded", function(event) {
+    setAnimation();
+});
+
+
+function setAnimation(){
+    let degrees = 0;
+    setInterval(function() {   //  call a 3s setTimeout when the loop is called
+        degrees++;
+        background = `conic-gradient(from ${degrees}deg at 50% 120%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018)`;
+        document.getElementsByTagName("body")[0].style.background=background;
+        if(degrees+1 === 360){
+            degrees = 0;
+        }
+    }, 50)
+}
+
 async function drawBingo(){
     ctx.fillStyle = "powderblue"
     ctx.fillRect(0, 0, canvas.width, canvas.height)
