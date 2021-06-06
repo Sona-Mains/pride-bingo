@@ -1,6 +1,16 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+}
+.item:first-child{
+    transform: scaleX(-1);
+}
+.item{
+    align-self: auto;
+}
 body {
     background: conic-gradient(from 0deg at 50% 120%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
-    height:100%;
+    height: 100%;
 }
 
 .center {
