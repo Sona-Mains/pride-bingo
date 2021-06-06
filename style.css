@@ -10,7 +10,7 @@
 }
 body {
     background: conic-gradient(from 0deg at 50% 160%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
-    min-height: 50%;
+    min-height: 100%;
     height: auto;
 }
 
