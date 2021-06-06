@@ -34,3 +34,13 @@ body {
     background-color: white;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+    height: 0px;
+    background-color: #b9cbd6
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4e8eb4
+}
+
