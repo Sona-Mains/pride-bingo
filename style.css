@@ -1,12 +1,17 @@
 html,
-body{
+body {
     min-height: 100%;
     margin: 0;
 }
 
-.item{
-    align-self: auto;
+.br {
+    height: 3px;
 }
+
+.br2 {
+    height: 15px;
+}
+
 body {
     background: url("res/Backdrop.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;

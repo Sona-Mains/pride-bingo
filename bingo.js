@@ -3,7 +3,7 @@ const {body} = document;
 const canvas = document.createElement('canvas');
 const ctx = canvas.getContext('2d');
 const cellSize = 200;
-const borderSize = 4;
+const borderSize = 2;
 canvas.width = cellSize * 5 + borderSize * 6;
 canvas.height = cellSize * 5 + borderSize * 7 + 20;
 
