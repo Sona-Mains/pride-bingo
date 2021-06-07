@@ -4,23 +4,15 @@ body{
     margin: 0;
 }
 
-.container {
-    display: flex; /* or inline-flex */
-    flex-direction: row;
-}
-.item:first-child{
-    transform: scaleX(-1);
-}
 .item{
     align-self: auto;
 }
 body {
-    background: conic-gradient(from 0deg at 50% 160%, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D, #FF0018);
-    height: auto;
-}
-
-#animation{
-    min-height: 100%;
+    background: url("res/Backdrop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .center {
