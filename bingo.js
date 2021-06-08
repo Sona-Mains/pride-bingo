@@ -22,7 +22,7 @@ const taskList = [
     "res/Flair.png",
     "res/Genderfluid.png",
     "res/Hospital.png",
-    "res/Journey's.png",
+    "res/Immortal Journey.png",
     "res/KDA.png",
     "res/Lesbian.png",
     "res/Lunar Revel.png",
