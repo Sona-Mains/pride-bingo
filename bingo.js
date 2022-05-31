@@ -17,7 +17,7 @@ const taskList = [
     "res/Cosmic.png",
     "res/Coven.png",
     "res/Dark Star.png",
-    "res/Discord Emote.png",
+    "res/Discord Sona.png",
     "res/Educate.png",
     "res/Flair.png",
     "res/Genderfluid.png",
