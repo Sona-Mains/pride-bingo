@@ -17,7 +17,18 @@ const taskList = [
     "res/Cosmic.png",
     "res/Coven.png",
     "res/Dark Star.png",
+    "res/Discord Janna.png",
+    "res/Discord Lulu.png",
+    "res/Discord Morgana.png",
+    "res/Discord Nami.png",
+    "res/Discord Neeko.png",
+    "res/Discord Orianna.png",
+    "res/Discord Renata.png",
+    "res/Discord Senna.png",
+    "res/Discord Seraphine.png",
     "res/Discord Sona.png",
+    "res/Discord Soraka.png",
+    "res/Discord Yuumi.png",
     "res/Educate.png",
     "res/Flair.png",
     "res/Genderfluid.png",
@@ -45,7 +56,7 @@ const taskList = [
     "res/Sweetheart.png",
     "res/TD.png",
     "res/TFT Boom.png",
-    "res/Trans.png"
+    "res/Trans.png",
 ];
 
 async function drawBingo(){
@@ -88,7 +99,7 @@ async function drawBingo(){
         var data = '<svg xmlns="http://www.w3.org/2000/svg" width="'+canvas.width+'" height="'+20+'">'
                      + '<foreignObject width="100%" height="100%">'
                      + '<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+canvas.width+'px;height:'+20+'px;font-size:15px">'
-                     + 'Sonamains Pride Bingo sheet generated for u/'
+                     + 'Pride Bingo sheet generated for u/'
                      + content
                      + '</div>'
                      + '</foreignObject>'
