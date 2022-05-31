@@ -45,9 +45,7 @@ const taskList = [
     "res/Sweetheart.png",
     "res/TD.png",
     "res/TFT Boom.png",
-    "res/Trans.png",
-    "res/WR Emote.png",
-    "res/WR Icon.png"
+    "res/Trans.png"
 ];
 
 async function drawBingo(){
