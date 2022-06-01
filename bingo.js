@@ -25,7 +25,6 @@ const taskList = [
     "res/Discord Soraka.png",
     "res/Discord Yuumi.png",
     "res/Educate.png",
-    "res/Flair.png",
     "res/Genderfluid.png",
     "res/Lesbian.png",
     "res/Movie Night.png",
